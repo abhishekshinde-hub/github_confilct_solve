@@ -5,3 +5,8 @@ class Product(BaseModel):
     product_name : str
     product_price : float
     stock : str
+
+class Register(BaseModel):
+    username:str
+    password:str
+    email :str
